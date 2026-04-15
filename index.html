@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OlimpiadHub - Платформа предметных олимпиад</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+     
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-trophy"></i>
+                    <span>OlimpiadHub</span>
+                </div>
+                <nav class="nav">
+                    <a href="#" class="nav-link active">Главная</a>
+                    <a href="#" class="nav-link">Календарь</a>
+                    <a href="#" class="nav-link">Олимпиады</a>
+                    <a href="#" class="nav-link">Подготовка</a>
+                    <a href="#" class="nav-link">Результаты</a>
+                </nav>
+                <div class="auth-buttons">
+                    <a href="login.html" class="btn btn-outline" id="loginBtn">Вход</a>
+                    <a href="registr.html" class="btn btn-primary" id="registerBtn">Регистрация</a>
+                </div>
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <section class="hero">
+                <div class="hero-content">
+                    <h1 class="hero-title">Ваш путь к олимпиадным победам начинается здесь</h1>
+                    <p class="hero-subtitle">Единая платформа для участия, подготовки и отслеживания предметных олимпиад</p>
+                    <div class="hero-search">
+                        <input type="text" placeholder="Поиск олимпиад, заданий, материалов..." class="search-input">
+                        <button class="search-btn"><i class="fas fa-search"></i></button>
+                    </div>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-number">250+</div>
+                        <div class="stat-label">олимпиад</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">15</div>
+                        <div class="stat-label">предметов</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">10k+</div>
+                        <div class="stat-label">участников</div>
+                    </div>
+                </div>
+            </section>
+            <section class="olympiads-section">
+                <h2 class="section-title">Ближайшие олимпиады</h2>
+                <div class="olympiads-grid">
+                    <div class="olympiad-card">
+                        <div class="olympiad-header">
+                            <div class="olympiad-subject math">Математика</div>
+                            <div class="olympiad-level">Всероссийская</div>
+                        </div>
+                        <h3 class="olympiad-title">ВсОШ по математике</h3>
+                        <p class="olympiad-description">Муниципальный этап для 7-11 классов</p>
+                        <div class="olympiad-details">
+                            <div class="detail">
+                                <i class="far fa-calendar"></i>
+                                <span>15 октября</span>
+                            </div>
+                            <div class="detail">
+                                <i class="far fa-clock"></i>
+                                <span>3 часа</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-participate">Участвовать</button>
+                    </div>
+                    <div class="olympiad-card">
+                        <div class="olympiad-header">
+                            <div class="olympiad-subject physics">Физика</div>
+                            <div class="olympiad-level">Вузовская</div>
+                        </div>
+                        <h3 class="olympiad-title">Олимпиада "Физтех"</h3>
+                        <p class="olympiad-description">Отборочный онлайн этап</p>
+                        <div class="olympiad-details">
+                            <div class="detail">
+                                <i class="far fa-calendar"></i>
+                                <span>22 октября</span>
+                            </div>
+                            <div class="detail">
+                                <i class="far fa-clock"></i>
+                                <span>4 часа</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-participate">Участвовать</button>
+                    </div>
+                    <div class="olympiad-card">
+                        <div class="olympiad-header">
+                            <div class="olympiad-subject history">История</div>
+                            <div class="olympiad-level">Вузовская</div>
+                        </div>
+                        <h3 class="olympiad-title">"Ломоносов" по истории</h3>
+                        <p class="olympiad-description">Регистрация до 30 октября</p>
+                        <div class="olympiad-details">
+                            <div class="detail">
+                                <i class="far fa-calendar"></i>
+                                <span>30 октября</span>
+                            </div>
+                            <div class="detail">
+                                <i class="far fa-clock"></i>
+                                <span>3.5 часа</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-participate">Участвовать</button>
+                    </div>
+                </div>
+            </section>
+            <section class="quick-links">
+                <h2 class="section-title">Быстрый доступ</h2>
+                <div class="links-grid">
+                    <a href="#" class="quick-link">
+                        <div class="link-icon">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <h3>Календарь</h3>
+                        <p>Все события в одном месте</p>
+                    </a>
+                    <a href="#" class="quick-link">
+                        <div class="link-icon">
+                            <i class="fas fa-book-open"></i>
+                        </div>
+                        <h3>Подготовка</h3>
+                        <p>Тренажер задач и материалы</p>
+                    </a>
+                    <a href="#" class="quick-link">
+                        <div class="link-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Аналитика</h3>
+                        <p>Ваш прогресс и статистика</p>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <i class="fas fa-trophy"></i>
+                        <span>OlimpiadHub</span>
+                    </div>
+                    <p class="footer-description">Платформа для участников, организаторов и педагогов предметных олимпиад</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Разделы</h4>
+                    <a href="#">Главная</a>
+                    <a href="#">Календарь</a>
+                    <a href="#">Олимпиады</a>
+                    <a href="#">Подготовка</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Поддержка</h4>
+                    <a href="#">Помощь</a>
+                    <a href="#">FAQ</a>
+                    <a href="#">Контакты</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Контакты</h4>
+                    <p>olympiadhub@edu.ru</p>
+                    <p>+7 (495) 123-45-67</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 OlimpiadHub. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
